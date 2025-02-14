@@ -1,0 +1,28 @@
+Package: Colenrich
+Title: Integrated GO Enrichment and Network Visualization Tools
+Version: 0.0.0.9000
+Authors@R: 
+     person("Zheng", "Li", email = "1056798316@qq.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4927-0912"))
+Description:  This package provides a suite of tools for integrated Gene Ontology (GO) enrichment analysis and network visualization. 
+    It includes functions for combining high-throughput sequencing datasets, performing community detection using Louvain algorithms,
+    calculating various centrality measures within communities, and generating customized network plots with ggraph. The package
+    leverages known gene functions to overcome sparsity in overlapping gene signatures, thereby facilitating drug mechanism studies 
+    and other bioinformatics applications.
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Imports:
+    AnnotationDbi,
+    org.Hs.eg.db,
+    org.Mm.eg.db,
+    dplyr,
+    tidyr,
+    ggplot2,
+    ggraph,
+    tidygraph,
+    igraph,
+    wesanderson,
+    gplots
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
