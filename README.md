@@ -1,6 +1,6 @@
 # Colenrich
 
-**Colenrich** is an R package that provides integrated Gene Ontology (GO) enrichment analysis and network visualization tools for high-throughput sequencing datasets. The package includes functions for combining datasets, performing community detection using the Louvain algorithm, calculating various centrality measures within communities, and generating customized network plots with ggraph. Colenrich leverages known gene functions to overcome the sparsity issues often encountered in overlapping gene signatures, facilitating drug mechanism studies and other bioinformatics applications.
+**Colenrich** Colenrich is an R package designed to compute functional overlaps among datasets from diverse sources, such as high-throughput sequencing data and drug target databases. It excels at integrating key gene functions across these datasets by leveraging established gene function information to effectively overcome the sparsity commonly encountered in overlapping gene features, thereby advancing research into drug mechanisms and other bioinformatics applications.
 
 ## Features
 
