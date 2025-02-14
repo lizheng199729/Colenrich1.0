@@ -19,7 +19,7 @@ You can install the development version of **Colenrich** directly from GitHub:
 install.packages("devtools")
 
 # Install Colenrich from GitHub
-devtools::install_github("YourGithubUsername/Colenrich")
+devtools::install_github("lizheng199729/Colenrich")
 ```
 ## Usage
 Basic GO Enrichment Analysis
